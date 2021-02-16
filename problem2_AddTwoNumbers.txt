@@ -1,0 +1,15 @@
+
+
+
+
+a = -5;
+b = 2;
+c_correct = -3;
+assert(isequal(add_two_numbers(a,b),c_correct))
+
+
+
+
+function c = add_two_numbers(a,b)
+  c = a+b;
+end

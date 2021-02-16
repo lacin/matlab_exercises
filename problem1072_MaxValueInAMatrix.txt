@@ -1,0 +1,14 @@
+
+
+
+
+clear
+x = magic(6);
+y_correct = 36;
+assert(isequal(your_fcn_name(x),y_correct))
+
+
+function y = your_fcn_name(x)
+    vMax= max(x);
+    y= max(vMax);
+end
